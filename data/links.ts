@@ -19,7 +19,7 @@ export const categoriasDeLinks = [
     tituloDaDivisoria: "Zcash Brasil",
     links: [
       { title: "Bem-vindos à Zcash Brasil ", description: "Conheça um pouco mais sobre a Zcash Brasil.", url: "https://zcashbrazil.substack.com/p/bem-vindoa-a-zcash" },
-      { title: "ZecStats", description: "Dados em tempo real da rede Zcash.", url: "#" },
+      { title: "ZecStats", description: "Dados em tempo real da rede Zcash.", url: "https://zecstats.info/" },
       { title: "Manifesto Generator", description: "Gerador de Manifesto Zcash em mais de 36 idiomas.", url: "https://privacyisnormal.xyz/" },
       { title: "Zcash Metro", description: "Interface gráfica e divertida de como funciona a Mempool.", url: "https://zcashmetro.io/" },
       { title: "Zcash Paper Wallet Generator", description: "Gerador de carteira via web com endereço UFVK.", url: "https://zecpaperwallet.com/" },

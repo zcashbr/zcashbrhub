@@ -17,7 +17,7 @@ export default function Home() {
     <main className="min-h-screen transition-colors duration-500 px-6 py-16 relative">
       
       <ThemeToggle />
-      <FloatingQR url="https://Paow4n.github.io/zcashbrasilhub/" />
+      <FloatingQR url="https://paow4n.github.io/zcashbrasilhub/" />
 
       <div className="max-w-4xl mx-auto flex flex-col items-center">
         <Image 
@@ -28,14 +28,14 @@ export default function Home() {
           className="w-32 h-32 rounded-full mb-8 object-cover border border-zecGold shadow-[0_0_40px_rgba(255,184,0,0.2)]"
         />
         <h1 className="text-3xl md:text-4xl font-black text-zecGold uppercase tracking-[0.2em] mb-2 text-center">
-          Zcash ᙇ <PrivacyWord /> is normal
+          Zcash ᙇ Brasil
         </h1>
         <p className="text-[var(--foreground)] opacity-70 mb-6 uppercase tracking-[0.3em] text-xs font-bold">
-          Zcash is the future
+          <PrivacyWord />
         </p>
 
         {/* Loop Automático das Redes Sociais */}
-        <div className="flex flex-wrap gap-6 justify-center items-center mb-8">
+        <div className="flex flex-wrap gap-6 justify-center items-center mb">
           {socialMedias.map((social, index) => (
             <a 
               key={index} 

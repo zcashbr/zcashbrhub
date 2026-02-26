@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
-import { ExternalLink } from "lucide-react";
+
 
 export function LinkCard({ title, description, url }: { title: string, description: string, url: string }) {
   return (
@@ -15,11 +15,10 @@ export function LinkCard({ title, description, url }: { title: string, descripti
                  border border-zecGold rounded-[2.5rem] group min-h-[140px] hover:bg-zecGold/5 transition-colors"
     >
       <div className="flex items-start">
-        <h2 className="text-zecGold font-black uppercase tracking-tighter text-xl">
+        <h2 className="text-zecGold font-black uppercase tracking-tighter text-xl font-titulo">
           {title}
         </h2>
-        <ExternalLink size={20} className="text-zecGold/40 group-hover:text-zecGold transition-colors" />
-      </div>
+       </div>
       <p className="text-zinc-500 text-sm mt-4 font-medium leading-tight my-auto">
         {description}
       </p>

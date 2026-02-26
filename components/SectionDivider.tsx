@@ -7,7 +7,7 @@ export function SectionDivider({ title }: { title: string }) {
       <div className="flex-grow h-px bg-gradient-to-r from-transparent to-zecGold/30"></div>
       
       {/* Título centralizado */}
-      <span className="px-4 text-[var(--foreground)] opacity-50 text-xs font-bold uppercase tracking-[0.3em]">
+      <span className="px-4 text-[var(--zec-gold-dinamico)] opacity-50 text-xs font-bold uppercase tracking-[0.3em]">
         {title}
       </span>
       

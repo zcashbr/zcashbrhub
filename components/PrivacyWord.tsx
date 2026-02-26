@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 
 export function PrivacyWord() {
-  const word = "PRIVACY";
+  const word = "PRIVACY IS NORMAL";
   // A palavra começa oculta como uma senha
   const [displayText, setDisplayText] = useState("•••••••");
   const [isHovered, setIsHovered] = useState(false);
@@ -43,7 +43,7 @@ export function PrivacyWord() {
     <span 
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
-      className="relative inline-block cursor-crosshair text-white dark:text-white mx-2 transition-colors duration-300 hover:text-zecGold"
+      className="relative inline-block cursor-default text-white dark:text-white mx-2 transition-colors duration-300 hover:text-zecGold"
       title="GOSTOU, NÉ?"
     >
       {/* Texto "fantasma" invisível só para garantir que o tamanho da linha não fique pulando */}
