@@ -1,26 +1,24 @@
 @import "tailwindcss";
 
+
+@theme {
+  --color-zecGold: #FFB800;
+}
+
+/*Dark Mode, initial*/
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #000000;
+  --foreground: #FFB800;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+/* Light mode - Buttom Sunny*/
+.luz {
+  --background: #f4f4f5;
+  --foreground: #18181b;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Courier New', Courier, monospace;
+  transition: background-color 0.5s ease, color 0.5s ease;
 }
