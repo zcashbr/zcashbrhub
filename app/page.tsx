@@ -8,6 +8,7 @@ import { socialMedias, categoriasDeLinks } from "../data/links";
 // Nossos Componentes Isolados
 import { LinkCard } from "../components/LinkCard";
 import { FloatingQR } from "../components/FloatingQR";
+import { MatrixBackground } from "../components/MatrixBackground";
 import { ThemeToggle } from "../components/ThemeToggle"; 
 import { SectionDivider } from "../components/SectionDivider";
 import { PrivacyWord } from "../components/PrivacyWord";
@@ -15,8 +16,8 @@ import { PrivacyWord } from "../components/PrivacyWord";
 export default function Home() {
   return (
     <main className="min-h-screen transition-colors duration-500 px-6 py-16 relative">
-      
-      <ThemeToggle />
+    <ThemeToggle />
+    <MatrixBackground />
       <FloatingQR url="https://paow4n.github.io/zcashbrasilhub/" />
 
       <div className="max-w-4xl mx-auto flex flex-col items-center">
@@ -35,7 +36,7 @@ export default function Home() {
         </p>
 
         {/* Loop Automático das Redes Sociais */}
-        <div className="flex flex-wrap gap-6 justify-center items-center mb">
+        <div className="flex flex-wrap gap-6 justify-center items-center mb-0.2">
           {socialMedias.map((social, index) => (
             <a 
               key={index} 

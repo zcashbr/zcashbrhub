@@ -13,10 +13,9 @@ export const socialMedias = [
   { title: "SoundCloud", url: "https://soundcloud.com/zcashbrazil", Icon: FaSoundcloud, size: 28 },
 ];
 
-// Adicionamos o "export" aqui também
 export const categoriasDeLinks = [
   {
-    tituloDaDivisoria: "Zcash Brasil",
+    tituloDaDivisoria: "Projetos Zcash Brasil",
     links: [
       { title: "Bem-vindos à Zcash Brasil ", description: "Conheça um pouco mais sobre a Zcash Brasil.", url: "https://zcashbrazil.substack.com/p/bem-vindoa-a-zcash" },
       { title: "ZecStats", description: "Dados em tempo real da rede Zcash.", url: "https://zecstats.info/" },
