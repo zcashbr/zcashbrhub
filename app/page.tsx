@@ -2,10 +2,8 @@
 "use client";
 import Image from "next/image";
 
-// Importando nossos dados do novo arquivo "banco de dados"
 import { socialMedias, categoriasDeLinks } from "../data/links";
 
-// Nossos Componentes Isolados
 import { LinkCard } from "../components/LinkCard";
 import { FloatingQR } from "../components/FloatingQR";
 import { MatrixBackground } from "../components/MatrixBackground";
@@ -35,7 +33,7 @@ export default function Home() {
           <PrivacyWord />
         </p>
 
-        {/* Loop Automático das Redes Sociais */}
+        {/* Social Media */}
         <div className="flex flex-wrap gap-6 justify-center items-center mb-0.2">
           {socialMedias.map((social, index) => (
             <a 
@@ -51,7 +49,7 @@ export default function Home() {
           ))}
         </div>
         
-        {/* Loop Automático das Categorias e Botões */}
+        {/* sections */}
         <div className="w-full flex flex-col items-center">
           {categoriasDeLinks.map((categoria, indexCategoria) => (
             <div key={indexCategoria} className="w-full">

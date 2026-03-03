@@ -1,23 +1,22 @@
 @import "tailwindcss";
 
 @theme {
-  /* Agora o Tailwind vai ler a cor da variável que criamos abaixo */
   --color-zecGold: var(--zec-gold-dinamico);
   --font-titulo: var(--font-roboto-condensed);
 }
 
-/* Modo Escuro (Padrão) */
+/* Darkmod is default */
 :root {
   --background: #000000;
-  --foreground: #ffffff; /* Texto geral em branco para ler no preto */
-  --zec-gold-dinamico: #FFB800; /* Dourado brilhante para o fundo preto */
+  --foreground: #ffffff; 
+  --zec-gold-dinamico: #FFB800; 
 }
 
-/* Modo Claro (Ativado pelo seu botão) */
+/* Lightmode color */
 .luz {
   --background: #f4f4f5;
-  --foreground: #18181b; /* Texto geral em preto para ler no branco */
-  --zec-gold-dinamico: #000000; /* Dourado mais escuro (âmbar) para ter contraste no branco */
+  --foreground: #18181b; 
+  --zec-gold-dinamico: #000000; 
 }
 
 body {

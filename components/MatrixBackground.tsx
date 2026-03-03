@@ -22,7 +22,6 @@ export function MatrixBackground() {
     const charset = "ᙇZECzcash01PRIVACYCYPHERPUNK$₿";
     const fontSize = 20;
     const columns = Math.floor(canvas.width / fontSize);
-    // O Math.random() espalha as posições iniciais para que não caiam em um "bloco" sólido
     const drops: number[] = new Array(columns).fill(0).map(() => Math.floor(Math.random() * -50));
 
     const draw = () => {
