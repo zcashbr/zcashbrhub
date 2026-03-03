@@ -10,7 +10,7 @@ const nextConfig: NextConfig = {
   // você PRECISA tirar as barras (//) da linha abaixo e colocar o nome exato do repositório.
   // Caso contrário, o site vai carregar sem as cores e sem o CSS.
   
-  basePath: '/zcashbrhub', 
+  //basePath: '/zcashbrhub', 
 };
 
 export default nextConfig;
