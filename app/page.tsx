@@ -16,11 +16,11 @@ export default function Home() {
     <main className="min-h-screen transition-colors duration-500 px-6 py-16 relative">
     <ThemeToggle />
     <MatrixBackground />
-      <FloatingQR url="https://paow4n.github.io/zcashbrasilhub/" />
+      <FloatingQR url="https://zcashbr.com/" />
 
       <div className="max-w-4xl mx-auto flex flex-col items-center">
         <Image 
-          src="/zcashbrasilhub/avatar.png" 
+          src="/zcashbrhub/avatar.png" 
           alt="Zcash Logo" 
           width={128} 
           height={128}

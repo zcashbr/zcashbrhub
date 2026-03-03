@@ -41,7 +41,7 @@ export function PrivacyWord() {
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
       className="relative inline-block cursor-default text-zecGold mx-2 transition-colors duration-300 hover:text-zecGold"
-      title="GOSTOU, NÉ?"
+      title="ZCASH"
     >
       <span className="opacity-0">{word}</span>
       
