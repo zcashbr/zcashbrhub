@@ -1,9 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: "export",  // Força o Next.js a gerar arquivos estáticos (HTML/CSS/JS)
+  output: "export",  
   images: {
-    unoptimized: true, // O GitHub Pages não suporta a otimização de imagens padrão do Next.js
+    unoptimized: true, 
   },
   
   // ATENÇÃO: Se o seu link final no GitHub for algo como "seunome.github.io/meu-projeto",
