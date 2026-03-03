@@ -20,7 +20,7 @@ export default function Home() {
 
       <div className="max-w-4xl mx-auto flex flex-col items-center">
         <Image 
-          src="/zcashbrhub/avatar.png" 
+          src="/avatar.png" 
           alt="Zcash Logo" 
           width={128} 
           height={128}
