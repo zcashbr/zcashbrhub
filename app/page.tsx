@@ -2,20 +2,32 @@
 "use client";
 import Image from "next/image";
 
-import { socialMedias, categoriasDeLinks } from "../data/links";
+// 1. Apagamos "categoriasDeLinks" daqui, mantemos só as socialMedias
+import { socialMedias } from "../data/links";
 
 import { LinkCard } from "../components/LinkCard";
 import { FloatingQR } from "../components/FloatingQR";
 import { MatrixBackground } from "../components/MatrixBackground";
 import { ThemeToggle } from "../components/ThemeToggle"; 
+import { LangToggle } from "../components/LangToggle";
 import { SectionDivider } from "../components/SectionDivider";
 import { PrivacyWord } from "../components/PrivacyWord";
+// 2. Importamos o nosso Hook de idioma
+import { useLanguage } from "../components/LanguageContext"; 
 
 export default function Home() {
+  // 3. Chamamos o "t" que contém os nossos textos
+  const { t } = useLanguage();
+
   return (
     <main className="min-h-screen transition-colors duration-500 px-6 py-16 relative">
-    <ThemeToggle />
-    <MatrixBackground />
+      
+      <div className="absolute top-4 right-6 sm:right-10 flex items-center gap-3 z-50">
+        <ThemeToggle />
+        <LangToggle />
+      </div>
+
+      <MatrixBackground />
       <FloatingQR url="https://zcashbrasil.com.br/" />
 
       <div className="max-w-4xl mx-auto flex flex-col items-center">
@@ -49,9 +61,9 @@ export default function Home() {
           ))}
         </div>
         
-        {/* sections */}
-        <div className="w-full flex flex-col items-center">
-          {categoriasDeLinks.map((categoria, indexCategoria) => (
+        {/* Sections - Agora usando o t.categoriasDeLinks ! */}
+        <div className="w-full flex flex-col items-center mt-2">
+          {t.categoriasDeLinks.map((categoria, indexCategoria) => (
             <div key={indexCategoria} className="w-full">
               
               <SectionDivider title={categoria.tituloDaDivisoria} />

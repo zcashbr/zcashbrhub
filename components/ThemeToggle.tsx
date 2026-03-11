@@ -12,7 +12,7 @@ export function ThemeToggle() {
   return (
     <button 
       onClick={() => setIsLightMode(!isLightMode)} 
-      className="absolute top-8 right-8 p-2 text-[var(--foreground)] opacity-50 hover:opacity-100 transition-opacity z-50"
+      className="top-8 right-8 p-2 text-[var(--foreground)] opacity-50 hover:opacity-100 transition-opacity z-50"
     >
       {isLightMode ? <Moon size={24} /> : <Sun size={24} />}
     </button>
