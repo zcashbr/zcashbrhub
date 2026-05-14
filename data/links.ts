@@ -1,4 +1,4 @@
-import { FaDiscord, FaTelegramPlane, FaYoutube, FaInstagram, FaSoundcloud } from "react-icons/fa";
+import { FaDiscord, FaTelegramPlane, FaYoutube, FaInstagram, FaSoundcloud, FaShoppingBag } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { SiSubstack } from "react-icons/si";
 
@@ -10,4 +10,5 @@ export const socialMedias = [
   { title: "Youtube", url: "https://www.youtube.com/@zcashbrasil", Icon: FaYoutube, size: 26 },
   { title: "Substack", url: "https://zcashbrazil.substack.com/", Icon: SiSubstack, size: 22 },
   { title: "SoundCloud", url: "https://soundcloud.com/zcashbrazil", Icon: FaSoundcloud, size: 28 },
+  { title: "ZcashBr Shop", url: "https://reserva.ink/580043/", Icon: FaShoppingBag, size:24},
 ];
