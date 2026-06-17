@@ -11,10 +11,10 @@ const dictionary = {
         links: [
           { title: "Bem-vindos à Zcash Brasil", description: "Conheça um pouco mais sobre a Zcash Brasil.", url: "https://zcashbrazil.substack.com/p/bem-vindoa-a-zcash" },
           { title: "ZecStats", description: "Dados em tempo real da rede Zcash.", url: "https://zecstats.info/" },
-          { title: "Manifesto Generator", description: "Gerador de Manifesto Zcash em mais de 36 idiomas.", url: "https://privacyisnormal.xyz/" },
+          { title: "Manifesto Generator", description: "Gerador de Manifesto Zcash em mais de 36 idiomas.", url: "https://zcashmanif-7bpfba4w.manus.space/" },
           { title: "Zcash Metro", description: "Interface gráfica e divertida de como funciona a Mempool.", url: "https://zcashmetro.io/" },
           { title: "Zcash Paper Wallet Generator", description: "Gerador de carteira via web com endereço UFVK.", url: "https://zecpaperwallet.com/" },
-          { title: "Zcash PFP generator", description: "Ferramenta Online para gerar foto de perfil por IA no formato Cypherpunk.", url: "https://www.zcashpfp.xyz/" },
+          { title: "Zcash PFP generator", description: "Ferramenta Online para gerar foto de perfil por IA no formato Cypherpunk.", url: "https://zcashpfp-hvfx5jjp.manus.space/" },
           { title: "Projeto Zeca", description: "Projeto Zeca para o Discord, mensagens criptografadas e anônimas em seu servidor.", url: "https://github.com/Paow4n/ZECA-v2" },
           { title: "Transações privadas e seguras com ZEC", description: "Como funciona transações privadas e seguras com ZEC ᙇ.", url: "https://zcashbrazil.substack.com/p/transacoes-privadas-e-seguras-com" },
           { title: "Nossa NewsLetter", description: "Assine nossa NewsLetter para ficar por dentro do que acontece dentro do ecossistema da Zcash.", url: "https://zechubrazil.substack.com/?utm_source=substack&utm_medium=web&utm_campaign=substack_profile" },
